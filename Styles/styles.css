@@ -18,6 +18,9 @@
 .font32{
     font-size: 32px;
 }
+.font18{
+    font-size: 18px;
+}
 .btn1 {
     color: #006A50;
     border: 1px solid green;
@@ -48,6 +51,7 @@
     width: 139px;
     height: 48px;
     border-radius: 8px;
+    margin-top: 32px;
 }
 body{
     background-color: rgba(241, 241, 243, 1);
@@ -72,7 +76,7 @@ nav {
     width: 1280px;
     height: 560px;
     /* text-align: center; */
-    margin: 100px auto;
+    margin: 0px auto 80px;
     padding: 80px 100px;
     border-radius: 24px;
 }
@@ -101,7 +105,7 @@ nav {
 .future-vision{
     width: 1280px;
     height: 500px;
-    margin: 0 auto;
+    margin: 0 auto 80px;
 }
 .card1 {
     background-color: rgba(84, 144, 245, 0.2);
@@ -130,7 +134,7 @@ nav {
 .recent-news {
     width: 1280px;
     height: 1406px;
-    margin: 0 auto;
+    margin: 0 auto 80px;
     /* align-items: center; */
 }
 .news-container1 {
@@ -157,7 +161,7 @@ nav {
     height: 464px;
     text-align: center;
     align-items: center;
-    margin: 500px auto;
+    margin: 500px auto 80px;
 }
 .taka {
     display: flex;
@@ -172,10 +176,11 @@ nav {
 .border {
     border: 1px solid #ccc;
     border-radius: 10px;
-    padding: 32px;
+    padding: 32px 32px;
     width: 243px;
     height: 28px;
-    
+    text-align: center;
+    align-items: center;
 }
 .donate input {
     width: 1032px;
@@ -183,4 +188,23 @@ nav {
 }
 .donate-color{
     background-color: #C6E4D6;
+}
+.brdr{
+    text-align: center;
+    
+}
+.letter {
+    background-color: rgba(198, 228, 214, 1);
+    width: 1280px;
+    height: 395px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 24px;
+    
+}
+.foot {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
